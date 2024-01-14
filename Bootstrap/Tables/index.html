@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body>
+    <!--
+        Basic table
+        * A basic bootstrap 5 table has a light padding and horizontal dividers
+        * .table class adds basic styling to a table.
+        Bordered table
+        * The .table-bordered class adds border on all sides of tables and cells.It should 
+        be used with .table class.
+        Striped rows
+        * The .table-striped class adds zebra stripes to a table. 
+        Hover rows
+        * The .table-hover class adds a hover effect of grey background color on table 
+        rows when cursor is moved on the table.
+        Dark Black Table
+        * The table-dark class adds a black background to the table.
+        Borderless tables
+        * The table-borderless class removes borders from the table.
+        Not only black color we can also apply all BS-5 classes on rows as well as whole 
+        table
+        Responsive Tables
+        * The table-responsive class adds a scrollbar to the table when needed(when the 
+        table has more columns(horizontally))
+        table responsive class should not be applied on table
+        <div class = "table-responsive">
+            <table class = "table">
+            
+            </table>
+        </div>
+        you can also decide when the table should det a scroll bar depending on the screen 
+        width
+             class                     screen width
+        table-responsive-sm               <576px
+        table-responsive-md               <768px
+        table-responsive-lg               <992px
+        table-responsive-xl               <1200px
+        table-responsivexxl               <1400px
+
+        when table-responsive-sm is applied the scroll bar will appear only for devices 
+        with screen width less than 576px
+        <div class = "table-responsive-sm">
+            <table class = "table">
+            
+            </table>
+        </div>
+        -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover table-dark">
+                    <thead class="table-info">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>age</th>
+                            <th>designation</th>
+                            <th>salary</th>
+                            <th>Data</th>
+                            <th>Data</th>
+                            <th>Data</th>
+                            <th>Data</th>
+                            <th>Data</th>
+                            <th>Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-success">
+                            <td>12</td>
+                            <td>Virat</td>
+                            <td>Male</td>
+                            <td>29</td>
+                            <td>Manager</td>
+                            <td>50000</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>13</td>
+                            <td>Kohli</td>
+                            <td>Male</td>
+                            <td>30</td>
+                            <td>Accoutant</td>
+                            <td>60000</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>14</td>
+                            <td>Ronaldo</td>
+                            <td>male</td>
+                            <td>23</td>
+                            <td>Cashier</td>
+                            <td>56000</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                            <td>Dummy Data</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

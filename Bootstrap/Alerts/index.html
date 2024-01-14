@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerts</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body>
+    <!-- 
+        Alerts in Bootstrap 5
+        * Bootstrap 5 provides an easy way to create pre-defined alert messages.
+        * Alert are created with the .alert class
+        * followed by one of the classes alert-success,alert-info,alert-warning,alert- 
+          danger,alert-primary,alert-secondary,alert-light,alert-dark.
+        
+        Alert Links
+         *Add the alert-link class to any links to be displayed inside the alert box to 
+          create "matching colored links"
+
+        Closing Alerts
+         * To close the alert message add alert-dismissible class to the alert 
+          container.Then add class = "btn-close" and data-bs-dismiss = "alert" to a button 
+          element ( When you click on this alert box will disapper).
+
+        Animated Alerts
+         * The fade and show classes adds a fading effect when closing the alert message
+     -->
+     <div class="container">
+        <div class="alert alert-success mt-2">
+            <strong>Success!</strong> Operation performed Successfully <a href="#" class="alert-link">Read More</a>
+        </div>
+     </div>
+     <!--Creating an alert of specified size-->
+     <div class="container">
+        <div class="alert alert-warning mt-2 alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Failure!</strong> Operation Failed <a href="#" class="alert-link">Read More</a>
+        </div>
+        <div class="alert alert-info mt-2 alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Failure!</strong> Operation Failed <a href="#" class="alert-link">Read More</a>
+        </div>
+        <div class="alert alert-danger mt-2 alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Failure!</strong> Operation Failed <a href="#" class="alert-link">Read More</a>
+        </div>
+        <div class="alert alert-primary mt-2 alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Failure!</strong> Operation Failed <a href="#" class="alert-link">Read More</a>
+        </div>
+        <div class="alert alert-secondary mt-2">
+            <strong>Failure!</strong> Operation Failed <a href="#" class="alert-link">Read More</a>
+        </div>
+        <div class="alert alert-dark mt-2">
+            <strong>Failure!</strong> Operation Failed <a href="#" class="alert-link">Read More</a>
+        </div>
+        <div class="alert alert-light mt-2">
+            <strong>Failure!</strong> Operation Failed <a href="#" class="alert-link">Read More</a>
+        </div>
+     </div>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

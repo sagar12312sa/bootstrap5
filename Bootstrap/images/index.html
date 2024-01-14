@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body>
+    <!--
+        Image Shapes -> Rounded, Circle, Thumbnail(image with border on all 4 sides)
+        
+        1) Rounded Corners
+         * The Rounded class adds rounded corners to an image
+         * rounded-top class rounds only top corners 
+         * rounded-bottom class rounds only bottom corners
+        2) Circle
+         * The rounded-circle class shapes the image to a circle
+        3) Thumbnail
+         * The .img-thumbnail class shapes the image to a thumbnail
+    -->
+    <div class="container mt-3 bg-success"> <!--  mt: margin-top class -->
+        <img src="profile-img.jpg" alt="logo" height="300px" width="300px " class="rounded">
+        <img src="profile-img.jpg" alt="logo" height="300px" width="300px " class="rounded-circle">
+        <img src="profile-img.jpg" alt="logo" height="300px" width="300px " class="img-thumbnail">
+    </div>
+    <!--
+        Aligning images
+        * Place an image to the left with the float-start class or to the right with n 
+        float-end
+        Centered Image
+        Image can be centered by adding two classes mx-auto and d-block
+        In CSS the image can be centered using
+        margin: auto (in bootstarp mx-auto)
+        display: block (in bootstrap d-block)
+    -->
+    <div class="container mt-5">
+        <img src="profile-img.jpg" alt="logo" height="300px" width="300px " class="rounded 
+         float-start">
+         <img src="profile-img.jpg" alt="logo" height="300px" width="300px " class="rounded float-end">
+         <img src="profile-img.jpg" alt="logo" height="300px" width="300px " class="rounded mx-auto d-block">
+    </div>
+
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Groups</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body>
+    <!-- 
+        Basic List Groups
+        * The most basic list group is an unordered list with list items.
+        * To create a basic list group use an <ul> element with class .list-group and <li> 
+        elements with class .list-group-item.
+     -->
+     <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item">Apple</li>
+            <li class="list-group-item">Mango</li>
+            <li class="list-group-item">Banana</li>
+            <li class="list-group-item">Grapes</li>
+        </ul>
+     </div>
+     <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Apple</li>
+                    <li class="list-group-item">Mango</li>
+                    <li class="list-group-item">Banana</li>
+                    <li class="list-group-item">Grapes</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Apple</li>
+                    <li class="list-group-item">Mango</li>
+                    <li class="list-group-item">Banana</li>
+                    <li class="list-group-item">Grapes</li>
+                </ul>
+            </div>
+        </div>
+     </div>
+     <!--
+        List group with linked items
+        * To create a list group with linked items use <div> instead of <ul> and <a> 
+        instead of <li>
+        * Optionally add the .list-group-item-action class if you want a grey background c 
+        color on hover
+     -->
+     <div class="container mt-2">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">Hello</a>
+            <a href="#" class="list-group-item list-group-item-action">World</a>
+            <a href="#" class="list-group-item list-group-item-action">India</a>
+            <a href="#" class="list-group-item list-group-item-action">Nepal</a>
+        </div>
+     </div>
+     <!-- 
+        Active State
+        * Use the .active class to highlight the current item.
+        Disabled Item
+        * The disabled class adds a lighter text color to the disabled item.And when used 
+        on links it will remove the hover effect 
+      -->
+      <div class="container mt-2">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">Hello</a>
+            <a href="#" class="list-group-item list-group-item-action disabled">World</a>
+            <a href="#" class="list-group-item list-group-item-action">India</a>
+            <a href="#" class="list-group-item list-group-item-action">Nepal</a>
+        </div>
+     </div>
+     <!--
+        Remove Borders
+        * use the list-group-flush class to remove some bordered and rounded corners
+        Numbered list groups
+        * use the list-group-numbered class to create list items with numbers in front of  
+        them
+     -->
+     <div class="container mt-3">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Apple</li>
+            <li class="list-group-item">Mango</li>
+            <li class="list-group-item">Banana</li>
+            <li class="list-group-item">Grapes</li>
+        </ul>
+     </div>
+     <div class="container mt-3">
+        <ul class="list-group list-group-numbered">
+            <li class="list-group-item">Apple</li>
+            <li class="list-group-item">Mango</li>
+            <li class="list-group-item">Banana</li>
+            <li class="list-group-item">Grapes</li>
+        </ul>
+     </div>
+    <!--
+        Horizontal list groups
+        * If you want the list items to display horizontally instead of vertically add the 
+        list-group-horizontal class to list-group
+        Contextual classes
+        * The classes for coloring list items are list-group-item-success,list-group-item- 
+        secondary,list-group-item-info,list-group-item-warning,list-group-item- 
+        danger,list-group-item-primary,list-group-item-dark and list-group-item-light.
+    -->
+    <div class="container mt-3">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">Apple</li>
+            <li class="list-group-item">Mango</li>
+            <li class="list-group-item">Banana</li>
+            <li class="list-group-item">Grapes</li>
+        </ul>
+     </div>
+     <div class="container mt-3">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item list-group-item-primary">Apple</li>
+            <li class="list-group-item list-group-item-success">Mango</li>
+            <li class="list-group-item list-group-item-info">Banana</li>
+            <li class="list-group-item list-group-item-danger">Grapes</li>
+            <li class="list-group-item list-group-item-warning">Mango</li>
+            <li class="list-group-item list-group-item-dark">Banana</li>
+            <li class="list-group-item list-group-item-secondary">Grapes</li>
+        </ul>
+     </div>
+     <div class="container mt-3">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">Apple</li>
+            <li class="list-group-item list-group-item-success">Mango</li>
+            <li class="list-group-item list-group-item-info">Banana</li>
+            <li class="list-group-item list-group-item-danger">Grapes</li>
+            <li class="list-group-item list-group-item-warning">Mango</li>
+            <li class="list-group-item list-group-item-dark">Banana</li>
+            <li class="list-group-item list-group-item-secondary">Grapes</li>
+        </ul>
+     </div>
+     <div class="container mt-2">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Hello</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">World</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-info">India</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Nepal</a>
+        </div>
+     </div>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

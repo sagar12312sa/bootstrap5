@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body>
+    <!--
+        Buttons in Boostrap 5
+
+        Button Styles: Bootstrap 5 provides beautiful,attractive and ubique style of 
+        buttons
+        
+        * Buttons are created using the .btn class
+        * Followed by one of the contextual classes .btn-success,btn-info,btn-warning,btn- 
+        danger,btn-primary,btn-secondary,btn-dark
+
+        Outline Buttons
+        * Bootstrap 5 also provides eight outline/bordered buttons
+        * Move the mouse over them to see an additional "Hover" effect.
+        * Outline Buttons are created with the .btn class
+        * followed by one of the contextual classes btn-outline-success,btn-outline- 
+        info,btn-outline-warning,btn-outline-danger,btn-outline-primary.btn-outline- 
+        secondary,btn-outline-light,btn-outline-dark
+    -->
+    <div class="container">
+        <input type="submit" value="submit" class="btn btn-success mt-3">
+        <input type="submit" value="submit" class="btn btn-info mt-3">
+        <input type="submit" value="submit" class="btn btn-warning mt-3">
+        <input type="submit" value="submit" class="btn btn-danger mt-3">
+        <input type="submit" value="submit" class="btn btn-primary mt-3">
+        <input type="submit" value="submit" class="btn btn-secondary mt-3">
+        <input type="submit" value="submit" class="btn btn-dark mt-3">
+    </div>
+    
+    <!--
+        Bordered Buttons
+    -->
+    <div class="container">
+        <h1>Bordered Buttons</h1>
+        <input type="submit" value="submit" class="btn btn-outline-success mt-3">
+        <input type="submit" value="submit" class="btn btn-outline-info mt-3">
+        <input type="submit" value="submit" class="btn btn-outline-warning mt-3">
+        <input type="submit" value="submit" class="btn btn-outline-danger mt-3">
+        <input type="submit" value="submit" class="btn btn-outline-primary mt-3">
+        <input type="submit" value="submit" class="btn btn-outline-secondary mt-3">
+        <input type="submit" value="submit" class="btn btn-outline-dark mt-3">
+    </div>
+    <!--
+     * the button classes can be used on <a>, <button> or <input> elements
+    -->
+    <div class="container mt-3">
+        <!-- <h1>hello</h1> -->
+        <a href="#" class="btn btn-danger">Read More</a>
+        <a href="#" class="btn btn-outline-danger">About us</a>
+        <button class="btn btn-primary">Go Back</button>
+        <button class="btn btn-outline-dark">Go Back</button>
+    </div>
+    <!--
+        Button Sizes
+        * Use the btn-lg class for large buttons
+        * use the btn-sm class for small buttons
+    -->
+    <div class="container mt-3">
+        <input type="submit" value="Large" class="btn btn-success btn-lg">
+        <input type="submit" value="default" class="btn btn-success">
+        <input type="submit" value="Small" class="btn btn-success btn-sm">
+    </div>
+    <!--
+        Block Level Buttons
+        * To create a block level button thet spans the entire width of the parent element
+        * Use the btn-block and d-grid helper class on the parent element
+        * If you have many block level buttons you can contrl the space betwwn the, the 
+        gap-1(1-5) class
+    -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6 d-grid">
+                <input type="submit" value="submit" class="btn btn-success btn-block">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12 d-grid">
+                <input type="submit" value="submit" class="btn btn-success btn-block">
+            </div>
+        </div>
+        <div class="row mt-3">
+             <div class="col-md-3 d-grid">
+                <input type="submit" value="submit" class="btn btn-success btn-block">
+             </div>
+             <div class="col-md-3 d-grid">
+                <input type="submit" value="submit" class="btn btn-success btn-block">
+             </div>
+             <div class="col-md-3 d-grid">
+                <input type="submit" value="submit" class="btn btn-success btn-block">
+             </div>
+             <div class="col-md-3 d-grid">
+                <input type="submit" value="submit" class="btn btn-success btn-block">
+             </div>
+        </div>
+    </div>
+    <!--
+        Active and Disbled Buttons
+        * A button can be set to an active (Appear Presses) or a disabled (unclickable) 
+        state.
+        * The class active makes a button appear pressed and the disabled attribute makes 
+        a button unclickable
+    -->
+    <div class="container mt-3">
+        <input type="submit" value="submit" class="btn btn-success active">
+        <input type="submit" value="submit" class="btn btn-success "disabled>
+    </div>
+    <!--
+        Rounded Buttons
+        * We can create rounded buttons by using .rounded-pill class
+    -->
+    <div class="container mt-2">
+        <input type="submit" value="submit" class="btn btn-success rounded-pill">
+        <input type="submit" value="submit" class="btn btn-outline-danger rounded-pill">
+    </div>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

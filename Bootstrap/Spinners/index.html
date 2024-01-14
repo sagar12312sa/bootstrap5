@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinners</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body>
+    <!-- 
+        Spinners in Bootstrap 5
+        * Spinners are used to provide loading feature
+        * To create a spinner or a loader use the spinner-border class
+     -->
+     <div class="container mt-4">
+        <div class="spinner-border"></div>
+     </div>
+     <!-- 
+        Colourful Spinners
+        * .spinner-border class followed by one of the contextual classes text-success,
+        text-info,text-warning,text-danger,text-primary,text-secondary,text-darkand text- 
+        light
+      -->
+      <div class="container">
+        <h1 class="text-primary mt-5">Colorful Spinners</h1>
+      </div>
+      <div class="container mt-5">
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-border text-primary"></div>
+        <div class="spinner-border text-secondary"></div>
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-border text-success"></div>
+        <div class="spinner-border text-warning"></div>
+        <div class="spinner-border text-dark"></div>
+      </div>
+      <!-- 
+        Growing Spinners
+        * Use the .spinner-grow class if you want the spinner/loader to grow instead of 
+        "spin"
+       -->
+       <div class="container mt -5">
+        <h1 class="text-primary">Growing Spinners</h1>
+       </div>
+       <div class="container">
+        <div class="spinner-grow"></div>
+       </div>
+       <div class="container mt-5">
+         <h1 class="text-primary">Colourful growing spinners</h1>
+       </div>
+       <div class="container mt-5">
+        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-secondary"></div>
+        <div class="spinner-grow text-info"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-dark"></div>
+       </div>
+       <!-- 
+        Spinner Size
+        * use .spinner-border-sm or .spinner-grow-sm to create a smaller spinner
+        -->
+        <div class="container">
+            <h1 class="text-primary">Spinners Size</h1>
+        </div>
+        <div class="container mt-5">
+            <div class="spinner-border spinner-border-sm text-danger"></div>
+            <div class="spinner-grow spinner-grow-sm text-danger"></div>
+        </div>
+       <!-- 
+        Spinner Buttons
+        * You can also add spinners to a button with or without text
+        -->
+        <div class="container">
+            <h1 class="text-primary">Spinner Buttons</h1>
+        </div>
+        <div class="container mt-5">
+              <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm"></span>
+              </button>
+              <button class="btn btn-primary">
+                <span class="spinner-grow spinner-grow-sm"></span>
+              </button>
+              <button class="btn btn-primary">Loading
+                <span class="spinner-border spinner-border-sm"></span>
+              </button>
+              <button class="btn btn-primary">Loading
+                <span class="spinner-grow spinner-grow-sm"></span>
+              </button>
+              <!-- Disabled button -->
+              <button class="btn btn-primary"disabled>Loading
+                <span class="spinner-border spinner-border-sm"></span>
+              </button>
+        </div>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>
